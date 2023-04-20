@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Natalia Herrero</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="form.js"></script>
+
+</head>
+<body>
+    <div id="header">
+    <div class="logo">
+        <h1>Natalia Herrero</h1>
+        <h2>Full Stack Developer</h2>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="page">
+    <div class="contact">
+    <h3>Contact</h3>
+    <form id="form" class="contact-form contact-grid" method="get">
+        
+      <div class="form-field name">
+        <label class="label" for="fname">full name *</label>
+        <input id="fname" type="text" required>
+      </div>
+    
+      <div class="form-field email">
+        <label class="label" for="email">email *</label>
+        <input id="email" type="email" required>
+      </div>
+        
+      <div class="form-field phone">
+        <label class="label" for="phone">phone *</label>
+        <input id="phone" type="tel" required>
+      </div>
+        
+      <div class="form-field subject">
+        <label class="label">subject *</label>
+        <select name="subject" form="contact_form" required>
+          <option value="appointment" selected>Appointment</option>
+          <option value="cancellation">Cancellation</option>
+          <option value="order">Order</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+        
+      <div class="form-field comment-box">
+        <label class="label">message</label>
+        <textarea name="comment-box" id="message"></textarea>
+      </div>
+      
+      <div class="submit-button">
+        <button id="submit" class="btn" type="submit" value="submit">submit</button>
+      </div>
+        
+    </form>
+
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <ul class="social">
+            <li><a href="http://instagram.com/demo">Instagram</a></li>
+            <li><a href="http://facebook.com/demo">Facebook</a></li>
+            <li><a href="http://linkedin.com/demo">Linkedin</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
